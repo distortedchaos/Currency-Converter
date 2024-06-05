@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+h2{
+    color: white;
+}
+.box1{
+    background-color: #6468C6;
+    height: 450px;
+    width: 350px;
+    padding: 30px;
+}
+
+.exchange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.exchange input{
+    width: 115px;
+    height: 40px;
+}
+.input{
+    margin-top: 50px;
+}
+.input p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.input input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.FromCountry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b3a68cb0;
+    border-radius: 5px;
+}
+select{
+    border: none;
+    color: rgb(255 255 255);
+    background-color: #6468c6cf;
+} select option{
+    color: black;
+    background-color: white;
+}
+.exchange p{
+    font-size: 20px;
+    color: white
+}
+.conversionrate p{
+ color: white;
+ margin-top: 20px;
+}
+ button{
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 32px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+@media screen and (max-width: 425px){
+
+    .box1{
+        background-color: #6468C6;
+        height: 400px;
+        width: 290px;
+        padding: 30px;
+    }
+
+
+}
